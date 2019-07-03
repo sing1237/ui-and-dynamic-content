@@ -1,0 +1,210 @@
+/*import font library*/
+@import url('https://fonts.googleapis.com/css?family=Amiri|Quicksand&display=swap');
+body {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5rem;
+	margin: 0;
+	text-align:center;
+	padding: 0;
+	background:url('../images/bg.jpg');
+	background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*apply font family n size*/
+h1 {
+	font-size: 3rem;
+	font-family: 'Amiri', serif;
+}
+ .box ul {
+	width: 20%;
+    margin: 0 auto;
+ }
+.box li {
+	list-style: none;
+    padding: 10px;
+	font-weight: 600;
+    background: #f2f2f2;
+    margin-top: 10px;
+} 
+
+button {
+    background: green;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+button:hover {
+	cursor: pointer;
+}
+/*apply font family n size*/
+p,span {
+	 
+	font-size: 1em;	
+
+}
+/*comon style for header n footer*/
+header,footer {
+	width: 100%;
+	padding: 8px 0;
+    color: #fff;
+	text-align: center;
+}
+header {
+	
+	
+}
+/*styling for anchor tag and navigation*/
+a {
+	text-decoration: none;
+}
+a.active {
+	
+	color : #4da3ff;	
+}
+
+nav li a:hover {
+	color: #fff;
+    background: black;
+    text-decoration: none;	
+}
+
+nav li a{
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 26px;
+    padding: 8px 16px;
+	border: 1px solid #726c6c;
+    background: white;
+    transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+ nav li {
+	display: inline-block;
+	padding: 40px;
+}
+.box {
+    margin: 0 0 1rem 0;
+}
+form {
+    width: 46%;
+    padding: 20px;
+    padding: 70px 20px 20px 20px;
+    margin: 0 auto;
+	border: 1px solid #c9c9c9;
+    background-color: #f4f4f4;
+	position:relative;
+}
+form input,textarea {
+	min-width: 90%;
+    min-height: 30px;
+    border: 1px solid #c9c9c9;
+    padding: 0 5px;
+}
+ 
+ 
+.heading span {
+	border: 1px solid #c9c9c9;
+	background-color: #fff;
+    padding: 17px;
+    font-size: 25px;
+    
+}
+.box {
+	 
+}
+.message-box {
+	width:100%;
+}
+.submit-area {
+	clear:both;
+}
+.form-area {
+	position:relative;
+}
+.heading {
+}
+textarea {
+	min-width: 93%;
+    min-height: 80px;
+}
+main {
+	padding: 58px 0;
+}
+form label {
+    display: block;
+    padding: 8px 0;
+}
+.submit-area input:hover { 
+	cursor:pointer
+}
+.submit-area input {
+	min-width: 140px;
+    background: #61c7ee;
+    color: #fff;
+}
+ 
+ 
+.group-info address,address a {
+	font-size: 16px !important;
+	font-weight: 100;
+}
+.form-control {
+    border-radius: 0;
+    font-size: 14px;
+    height: 52px;
+    font-weight: normal;
+    background-repeat: no-repeat
+}
+ 
+.error {
+    background-color: red;
+     color: #fff;
+}
+ 
+footer {
+    padding: 30px 0 30px
+}
+
+footer .social {
+	padding-bottom: 20px;
+  
+}
+
+footer .social address i.fas.fa-envelope-o {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 5px
+}
+
+
+footer .social .multi-icon h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 25px
+}
+
+footer .social .multi-icon ul {
+    padding: 0;
+    margin: 0
+}
+
+footer .social .multi-icon ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px
+}
+
+footer .social .multi-icon ul li a {
+    color: #fff;
+    font-size: 24px
+}
+
+footer .social .multi-icon ul li a:hover {
+    color: #033f54
+}
+
